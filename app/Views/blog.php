@@ -46,7 +46,7 @@
                </button>
                <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
-                     <li class="nav-item"><a class="nav-link" href="<?= base_url('index') ?>">Home</a></li>
+                     <li class="nav-item"><a class="nav-link" href="<?= base_url('/') ?>">Home</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url('about') ?>">About</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url('services') ?>">Services</a></li>
                      <li class="nav-item"><a class="nav-link active" href="<?= base_url('blog') ?>">Blog</a></li>
@@ -59,7 +59,7 @@
             <div class="logo"><a href="<?= base_url('index') ?>"><img src="<?= base_url('images/logo.png') ?>"></a></div>
             <div class="menu_main">
                <ul>
-                  <li><a href="<?= base_url('index') ?>">Home</a></li>
+                  <li><a href="<?= base_url('/') ?>">Home</a></li>
                   <li><a href="<?= base_url('about') ?>">About</a></li>
                   <li><a href="<?= base_url('services') ?>">Services</a></li>
                   <li class="active"><a href="<?= base_url('blog') ?>">Blog</a></li>
