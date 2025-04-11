@@ -2,10 +2,10 @@
 
 namespace App\Controllers;
 
-class Blog extends BaseController
+class Materi extends BaseController
 {
     public function index(): string
     {
-        return view('blog');
+        return view('materi');
     }
 }

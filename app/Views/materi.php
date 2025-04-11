@@ -10,7 +10,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
    <!-- site metas -->
-   <title>Blog</title>
+   <title>Materi</title>
    <meta name="keywords" content="">
    <meta name="description" content="">
    <meta name="author" content="">
@@ -47,9 +47,9 @@
                <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
                      <li class="nav-item"><a class="nav-link" href="<?= base_url('/') ?>">Home</a></li>
+                     <li class="nav-item"><a class="nav-link active" href="<?= base_url('materi') ?>">Materi</a></li>
+                     <li class="nav-item"><a class="nav-link" href="<?= base_url('kuis') ?>">Kuis</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url('about') ?>">About</a></li>
-                     <li class="nav-item"><a class="nav-link" href="<?= base_url('services') ?>">Services</a></li>
-                     <li class="nav-item"><a class="nav-link active" href="<?= base_url('blog') ?>">Blog</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url('contact') ?>">Contact</a></li>
                   </ul>
                </div>
@@ -60,9 +60,9 @@
             <div class="menu_main">
                <ul>
                   <li><a href="<?= base_url('/') ?>">Home</a></li>
+                  <li class="active"><a href="<?= base_url('materi') ?>">Materi</a></li>
+                  <li><a href="<?= base_url('kuis') ?>">Kuis</a></li>
                   <li><a href="<?= base_url('about') ?>">About</a></li>
-                  <li><a href="<?= base_url('services') ?>">Services</a></li>
-                  <li class="active"><a href="<?= base_url('blog') ?>">Blog</a></li>
                   <li><a href="<?= base_url('contact') ?>">Contact us</a></li>
                </ul>
             </div>
@@ -71,42 +71,56 @@
    </div>
    <!-- header section end -->
 
-   <!-- blog section start -->
-   <div class="blog_section layout_padding margin_top_90">
+   <!-- services section start -->
+   <div class="services_section layout_padding">
       <div class="container">
-         <h1 class="blog_taital">See Our Video</h1>
-         <p class="blog_text">Many variations of passages of Lorem Ipsum available...</p>
-         <div class="play_icon_main">
-            <div class="play_icon"><a href="#"><img src="<?= base_url('images/play-icon.png') ?>"></a></div>
+         <h1 class="services_taital">Services</h1>
+         <p class="services_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+         <div class="row">
+            <div class="col-md-4">
+               <div class="service_box">
+                  <h3>Service 1</h3>
+                  <p>Description of service 1.</p>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="service_box">
+                  <h3>Service 2</h3>
+                  <p>Description of service 2.</p>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="service_box">
+                  <h3>Service 3</h3>
+                  <p>Description of service 3.</p>
+               </div>
+            </div>
          </div>
       </div>
    </div>
-   <!-- blog section end -->
+   <!-- services section end -->
 
    <!-- footer section start -->
    <div class="footer_section layout_padding">
-      <div class="container">
-         <div class="input_btn_main">
-            <input type="text" class="mail_text" placeholder="Enter your email" name="Enter your email">
-            <div class="subscribe_bt"><a href="#">Subscribe</a></div>
-         </div>
-         <div class="location_main">
-            <div class="call_text"><img src="<?= base_url('images/call-icon.png') ?>"></div>
-            <div class="call_text"><a href="#">Call +01 1234567890</a></div>
-            <div class="call_text"><img src="<?= base_url('images/mail-icon.png') ?>"></div>
-            <div class="call_text"><a href="#">demo@gmail.com</a></div>
-         </div>
-         <div class="social_icon">
-            <ul>
-               <li><a href="#"><img src="<?= base_url('images/fb-icon.png') ?>"></a></li>
-               <li><a href="#"><img src="<?= base_url('images/twitter-icon.png') ?>"></a></li>
-               <li><a href="#"><img src="<?= base_url('images/linkedin-icon.png') ?>"></a></li>
-               <li><a href="#"><img src="<?= base_url('images/instagram-icon.png') ?>"></a></li>
-            </ul>
-         </div>
+      <div class="social_icon">
+         <ul>
+            <li><a href="#"><img src="<?= base_url('images/fb-icon.png') ?>"></a></li>
+            <li><a href="#"><img src="<?= base_url('images/twitter-icon.png') ?>"></a></li>
+            <li><a href="#"><img src="<?= base_url('images/linkedin-icon.png') ?>"></a></li>
+            <li><a href="#"><img src="<?= base_url('images/instagram-icon.png') ?>"></a></li>
+         </ul>
       </div>
    </div>
+   </div>
    <!-- footer section end -->
+
+   <!-- copyright section start -->
+   <div class="copyright_section">
+      <div class="container">
+         <p class="copyright_text">2025 All Rights Reserved.</p>
+      </div>
+   </div>
+   <!-- copyright section end -->
 
    <!-- Javascript files-->
    <script src="<?= base_url('js/jquery.min.js') ?>"></script>

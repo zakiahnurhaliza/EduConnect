@@ -2,10 +2,10 @@
 
 namespace App\Controllers;
 
-class Services extends BaseController
+class Kuis extends BaseController
 {
     public function index(): string
     {
-        return view('services');
+        return view('kuis');
     }
 }

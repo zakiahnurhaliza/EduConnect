@@ -47,9 +47,9 @@
                <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
                      <li class="nav-item"><a class="nav-link" href="<?= base_url('/') ?>">Home</a></li>
+                     <li class="nav-item"><a class="nav-link" href="<?= base_url('materi') ?>">Materi</a></li>
+                     <li class="nav-item"><a class="nav-link" href="<?= base_url('kuis') ?>">Kuis</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url('about') ?>">About</a></li>
-                     <li class="nav-item"><a class="nav-link" href="<?= base_url('services') ?>">Services</a></li>
-                     <li class="nav-item"><a class="nav-link" href="<?= base_url('blog') ?>">Blog</a></li>
                      <li class="nav-item"><a class="nav-link active" href="<?= base_url('contact') ?>">Contact</a></li>
                   </ul>
                </div>
@@ -60,9 +60,9 @@
             <div class="menu_main">
                <ul>
                   <li><a href="<?= base_url('/') ?>">Home</a></li>
+                  <li><a href="<?= base_url('materi') ?>">Materi</a></li>
+                  <li><a href="<?= base_url('kuis') ?>">Kuis</a></li>
                   <li><a href="<?= base_url('about') ?>">About</a></li>
-                  <li><a href="<?= base_url('services') ?>">Services</a></li>
-                  <li><a href="<?= base_url('blog') ?>">Blog</a></li>
                   <li class="active"><a href="<?= base_url('contact') ?>">Contact us</a></li>
                </ul>
             </div>
@@ -96,9 +96,7 @@
             </div>
             <div class="col-md-6">
                <h3>Contact Information</h3>
-               <p><strong>Phone:</strong> +01 1234567890</p>
-               <p><strong>Email:</strong> demo@gmail.com</p>
-               <p><strong>Address:</strong> 123 Street, City, Country</p>
+               <p><strong>Email:</strong> zkianh24@gmail.com</p>
             </div>
          </div>
       </div>
@@ -107,33 +105,22 @@
 
    <!-- footer section start -->
    <div class="footer_section layout_padding">
-      <div class="container">
-         <div class="input_btn_main">
-            <input type="text" class="mail_text" placeholder="Enter your email" name="Enter your email">
-            <div class="subscribe_bt"><a href="#">Subscribe</a></div>
-         </div>
-         <div class="location_main">
-            <div class="call_text"><img src="<?= base_url('images/call-icon.png') ?>"></div>
-            <div class="call_text"><a href="#">Call +01 1234567890</a></div>
-            <div class="call_text"><img src="<?= base_url('images/mail-icon.png') ?>"></div>
-            <div class="call_text"><a href="#">demo@gmail.com</a></div>
-         </div>
-         <div class="social_icon">
-            <ul>
-               <li><a href="#"><img src="<?= base_url('images/fb-icon.png') ?>"></a></li>
-               <li><a href="#"><img src="<?= base_url('images/twitter-icon.png') ?>"></a></li>
-               <li><a href="#"><img src="<?= base_url('images/linkedin-icon.png') ?>"></a></li>
-               <li><a href="#"><img src="<?= base_url('images/instagram-icon.png') ?>"></a></li>
-            </ul>
-         </div>
+      <div class="social_icon">
+         <ul>
+            <li><a href="#"><img src="<?= base_url('images/fb-icon.png') ?>"></a></li>
+            <li><a href="#"><img src="<?= base_url('images/twitter-icon.png') ?>"></a></li>
+            <li><a href="#"><img src="<?= base_url('images/linkedin-icon.png') ?>"></a></li>
+            <li><a href="#"><img src="<?= base_url('images/instagram-icon.png') ?>"></a></li>
+         </ul>
       </div>
+   </div>
    </div>
    <!-- footer section end -->
 
    <!-- copyright section start -->
    <div class="copyright_section">
       <div class="container">
-         <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Free html Templates</a></p>
+         <p class="copyright_text">2025 All Rights Reserved.</p>
       </div>
    </div>
    <!-- copyright section end -->
