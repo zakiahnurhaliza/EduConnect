@@ -21,7 +21,7 @@
    <!-- Responsive-->
    <link rel="stylesheet" href="<?= base_url('css/responsive.css') ?>">
    <!-- fevicon -->
-   <link rel="icon" href="<?= base_url('images/fevicon.png') ?>" type="image/gif" />
+   <link rel="icon" href="<?= base_url('images/logotab.png') ?>" type="image/gif" />
    <!-- Scrollbar Custom CSS -->
    <link rel="stylesheet" href="<?= base_url('css/jquery.mCustomScrollbar.min.css') ?>">
    <!-- Tweaks for older IEs-->
@@ -40,7 +40,7 @@
       <div class="header_main">
          <div class="mobile_menu">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <div class="logo_mobile"><a href="<?= base_url('index') ?>"><img src="<?= base_url('images/logo.png') ?>"></a></div>
+               <div class="logo_mobile"><a href="<?= base_url('index') ?>"><img src="<?= base_url('images/logoedu.png') ?>"></a></div>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                </button>
@@ -49,21 +49,19 @@
                      <li class="nav-item"><a class="nav-link" href="<?= base_url('/') ?>">Home</a></li>
                      <li class="nav-item"><a class="nav-link active" href="<?= base_url('materi') ?>">Materi</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url('kuis') ?>">Kuis</a></li>
-                     <li class="nav-item"><a class="nav-link" href="<?= base_url('about') ?>">About</a></li>
-                     <li class="nav-item"><a class="nav-link" href="<?= base_url('contact') ?>">Contact</a></li>
+                     <li class="nav-item"><a class="nav-link" href="<?= base_url('buku') ?>">Buku</a></li>
                   </ul>
                </div>
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="logo"><a href="<?= base_url('index') ?>"><img src="<?= base_url('images/logo.png') ?>"></a></div>
+            <div class="logo"><a href="<?= base_url('index') ?>"><img src="<?= base_url('images/logoedu.png') ?>"></a></div>
             <div class="menu_main">
                <ul>
                   <li><a href="<?= base_url('/') ?>">Home</a></li>
                   <li class="active"><a href="<?= base_url('materi') ?>">Materi</a></li>
                   <li><a href="<?= base_url('kuis') ?>">Kuis</a></li>
-                  <li><a href="<?= base_url('about') ?>">About</a></li>
-                  <li><a href="<?= base_url('contact') ?>">Contact us</a></li>
+                  <li><a href="<?= base_url('buku') ?>">Buku</a></li>
                </ul>
             </div>
          </div>
@@ -74,31 +72,107 @@
    <!-- services section start -->
    <div class="services_section layout_padding">
       <div class="container">
-         <h1 class="services_taital">Services</h1>
-         <p class="services_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+         <h1 class="services_taital">Pilihan Materi Pembelajaran</h1>
+         <p class="services_text">Terdapat berbagai pilihan materi pembelajaran yang dapat membantu Anda dalam proses belajar.</p>
          <div class="row">
             <div class="col-md-4">
-               <div class="service_box">
-                  <h3>Service 1</h3>
-                  <p>Description of service 1.</p>
+               <div class="service_box" data-toggle="modal" data-target="#materi1Modal">
+                  <h3>Materi 1: Matematika</h3>
+                  <p>Pelajari konsep dasar matematika.</p>
                </div>
             </div>
             <div class="col-md-4">
-               <div class="service_box">
-                  <h3>Service 2</h3>
-                  <p>Description of service 2.</p>
+               <div class="service_box" data-toggle="modal" data-target="#materi2Modal">
+                  <h3>Materi 2: Bahasa Inggris</h3>
+                  <p>Kembangkan kemampuan berbahasa Inggris Anda.</p>
                </div>
             </div>
             <div class="col-md-4">
-               <div class="service_box">
-                  <h3>Service 3</h3>
-                  <p>Description of service 3.</p>
+               <div class="service_box" data-toggle="modal" data-target="#materi3Modal">
+                  <h3>Materi 3: Ilmu Pengetahuan Alam</h3>
+                  <p>Jelajahi dunia sains.</p>
                </div>
             </div>
          </div>
       </div>
    </div>
    <!-- services section end -->
+
+   <!-- Modal for Materi 1 -->
+   <div class="modal fade" id="materi1Modal" tabindex="-1" role="dialog" aria-labelledby="materi1ModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title" id="materi1ModalLabel">Materi 1: Matematika</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+               <p>Pelajari konsep dasar matematika, termasuk aljabar, geometri, dan statistik. Berikut adalah beberapa contoh dan latihan yang dapat Anda coba:</p>
+               <ul>
+                  <li>Contoh 1: Menyelesaikan persamaan linear.</li>
+                  <li>Contoh 2: Menghitung luas dan keliling bangun datar.</li>
+                  <li>Latihan: Selesaikan soal-soal berikut untuk menguji pemahaman Anda.</li>
+               </ul>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- Modal for Materi 2 -->
+   <div class="modal fade" id="materi2Modal" tabindex="-1" role="dialog" aria-labelledby="materi2ModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title" id="materi2ModalLabel">Materi 2: Bahasa Inggris</h5>
+               <button type="button" class
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+               <p>Kembangkan kemampuan berbahasa Inggris Anda melalui latihan berbicara, mendengarkan, dan menulis. Berikut adalah beberapa contoh dan latihan yang dapat Anda coba:</p>
+               <ul>
+                  <li>Contoh 1: Membuat kalimat sederhana.</li>
+                  <li>Contoh 2: Mendengarkan dialog dan menjawab pertanyaan.</li>
+                  <li>Latihan: Cobalah untuk berbicara dengan teman dalam bahasa Inggris.</li>
+               </ul>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- Modal for Materi 3 -->
+   <div class="modal fade" id="materi3Modal" tabindex="-1" role="dialog" aria-labelledby="materi3ModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title" id="materi3ModalLabel">Materi 3: Ilmu Pengetahuan Alam</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+               <p>Jelajahi dunia sains dengan mempelajari biologi, fisika, dan kimia. Berikut adalah beberapa contoh dan latihan yang dapat Anda coba:</p>
+               <ul>
+                  <li>Contoh 1: Memahami siklus hidup tanaman.</li>
+                  <li>Contoh 2: Mengamati hukum Newton dalam gerakan.</li>
+                  <li>Latihan: Lakukan eksperimen sederhana di rumah dan catat hasilnya.</li>
+               </ul>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+            </div>
+         </div>
+      </div>
+   </div>
 
    <!-- footer section start -->
    <div class="footer_section layout_padding">

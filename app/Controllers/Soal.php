@@ -2,10 +2,10 @@
 
 namespace App\Controllers;
 
-class About extends BaseController
+class Soal extends BaseController
 {
     public function index(): string
     {
-        return view('about');
+        return view('soal');
     }
 }

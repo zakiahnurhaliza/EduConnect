@@ -26,10 +26,10 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => 'localhost',
-        'username'     => '',
-        'password'     => '',
-        'database'     => '',
+        'hostname'     => 'localhost',  // Ganti dengan 'localhost' jika database ada di lokal
+        'username'     => 'root',  // Ganti dengan username yang sesuai (misalnya, 'root' untuk lokal)
+        'password'     => '',  // Jika tidak ada password, biarkan kosong
+        'database'     => 'kuis_db',  // Ganti dengan nama database yang sesuai
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
@@ -41,7 +41,7 @@ class Database extends Config
         'compress'     => false,
         'strictOn'     => false,
         'failover'     => [],
-        'port'         => 3306,
+        'port'         => 3306,  // Port MySQL default
         'numberNative' => false,
         'foundRows'    => false,
         'dateFormat'   => [

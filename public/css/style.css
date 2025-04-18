@@ -231,10 +231,12 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(..\images\bg-web.jpeg);
     height: auto;
     background-size: 100%;
-    padding: 0px 0px 20px 0px;
+    padding: 0px 0px 0px 0px;
+    position: relative; 
+    z-index: 999;
 }
 
 .bg-light {
@@ -242,17 +244,14 @@ button {
 }
 
 .logo {
-    width: 100%;
+    width: 10%;
     float: left;
     text-align: center;
-    padding: 20px 0px 50px 0px;
 }
 
 .logo_mobile {
-    width: 100%;
     float: left;
     text-align: center;
-    padding-bottom: 20px;
 }
 
 .mobile_menu {
@@ -337,7 +336,7 @@ button {
 
 .header_main {
     width: 100%;
-    background-image: url(../images/header-bg.png);
+    background-image: url(../images/bg-web.jpeg);
     background-size: 100%;
     padding: 10px 0px 0px 0px;
 }
@@ -404,37 +403,32 @@ button {
 /* services section start */
 
 .services_section {
-    width: 100%;
-    float: left;
-    padding-bottom: 90px;
+    padding: 60px 0;
+    background-color: #f8f9fa;
 }
 
 .services_taital {
-    width: 100%;
-    float: left;
-    font-size: 40px;
-    color: #1f1f1f;
-    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 20px;
 }
 
 .services_text {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #1f1f1f;
-    margin: 0px;
+    font-size: 18px;
+    margin-bottom: 40px;
 }
 
-.services_section_2 {
-    width: 100%;
-    float: left;
-    margin-top: 90px;
-}
-
-.services_img {
-    width: 100%;
-    float: left;
+.service_box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
     text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.service_box:hover {
+    transform: scale(1.05);
 }
 
 .btn_main {
@@ -1012,4 +1006,11 @@ button {
 
 .copyright_text a:hover {
     color: #e27141;
+}
+
+.card {
+    margin-bottom: 20px; 
+}
+.card-body {
+    padding: 15px; 
 }

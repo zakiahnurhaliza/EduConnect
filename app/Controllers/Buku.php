@@ -2,10 +2,10 @@
 
 namespace App\Controllers;
 
-class Contact extends BaseController
+class Buku extends BaseController
 {
     public function index(): string
     {
-        return view('contact');
+        return view('buku');
     }
 }

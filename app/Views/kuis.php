@@ -21,11 +21,9 @@
    <!-- Responsive-->
    <link rel="stylesheet" href="<?= base_url('css/responsive.css') ?>">
    <!-- fevicon -->
-   <link rel="icon" href="<?= base_url('images/fevicon.png') ?>" type="image/gif" />
+   <link rel="icon" href="<?= base_url('images/logotab.png') ?>" type="image/gif" />
    <!-- Scrollbar Custom CSS -->
    <link rel="stylesheet" href="<?= base_url('css/jquery.mCustomScrollbar.min.css') ?>">
-   <!-- Tweaks for older IEs-->
-   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
    <!-- fonts -->
    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Righteous&display=swap" rel="stylesheet">
    <!-- owl stylesheets -->
@@ -40,7 +38,7 @@
       <div class="header_main">
          <div class="mobile_menu">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <div class="logo_mobile"><a href="<?= base_url('index') ?>"><img src="<?= base_url('images/logo.png') ?>"></a></div>
+               <div class="logo_mobile"><a href="<?= base_url('index') ?>"><img src="<?= base_url('images/logoedu.png') ?>"></a></div>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                </button>
@@ -49,21 +47,19 @@
                      <li class="nav-item"><a class="nav-link" href="<?= base_url('/') ?>">Home</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url('materi') ?>">Materi</a></li>
                      <li class="nav-item"><a class="nav-link active" href="<?= base_url('kuis') ?>">Kuis</a></li>
-                     <li class="nav-item"><a class="nav-link" href="<?= base_url('about') ?>">About</a></li>
-                     <li class="nav-item"><a class="nav-link" href="<?= base_url('contact') ?>">Contact</a></li>
+                     <li class="nav-item"><a class="nav-link" href="<?= base_url('buku') ?>">Buku</a></li>
                   </ul>
                </div>
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="logo"><a href="<?= base_url('index') ?>"><img src="<?= base_url('images/logo.png') ?>"></a></div>
+            <div class="logo"><a href="<?= base_url('index') ?>"><img src="<?= base_url('images/logoedu.png') ?>"></a></div>
             <div class="menu_main">
                <ul>
                   <li><a href="<?= base_url('/') ?>">Home</a></li>
                   <li><a href="<?= base_url('materi') ?>">Materi</a></li>
                   <li class="active"><a href="<?= base_url('kuis') ?>">Kuis</a></li>
-                  <li><a href="<?= base_url('about') ?>">About</a></li>
-                  <li><a href="<?= base_url('contact') ?>">Contact us</a></li>
+                  <li><a href="<?= base_url('buku') ?>">Buku</a></li>
                </ul>
             </div>
          </div>
@@ -71,17 +67,73 @@
    </div>
    <!-- header section end -->
 
-   <!-- blog section start -->
-   <div class="blog_section layout_padding margin_top_90">
-      <div class="container">
-         <h1 class="blog_taital">See Our Video</h1>
-         <p class="blog_text">Many variations of passages of Lorem Ipsum available...</p>
-         <div class="play_icon_main">
-            <div class="play_icon"><a href="#"><img src="<?= base_url('images/play-icon.png') ?>"></a></div>
+   <!-- Quiz Container Start -->
+   <div class="container mb-5">
+      <h2 class="text-center">Pilih Mata Pelajaran</h2>
+      <div class="row">
+         <!-- Subject 1 -->
+         <div class="col-md-4">
+            <div class="card">
+               <div class="card-body">
+                  <h5 class="card-title">Matematika</h5>
+                  <!-- Matematika -->
+                  <a href="<?= base_url('kuis/matematika/1') ?>" class="btn btn-primary">Kuis 1</a>
+                  <a href="<?= base_url('kuis/matematika/2') ?>" class="btn btn-primary">Kuis 2</a>
+                  <a href="<?= base_url('kuis/matematika/3') ?>" class="btn btn-primary">Kuis 3</a>
+               </div>
+            </div>
+         </div>
+
+         <!-- Subject 2 -->
+         <div class="col-md-4">
+            <div class="card">
+               <div class="card-body">
+                  <h5 class="card-title">Bahasa Inggris</h5>
+                  <a href="<?= base_url('kuis/inggris/1') ?>" class="btn btn-primary">Kuis 1</a>
+                  <a href="<?= base_url('kuis/inggris/2') ?>" class="btn btn-primary">Kuis 2</a>
+                  <a href="<?= base_url('kuis/inggris/3') ?>" class="btn btn-primary">Kuis 3</a>
+               </div>
+            </div>
+         </div>
+
+         <!-- Subject 3 -->
+         <div class="col-md-4">
+            <div class="card">
+               <div class="card-body">
+                  <h5 class="card-title">Ilmu Pengetahuan Alam</h5>
+                  <a href="<?= base_url('kuis/ipa/1') ?>" class="btn btn-primary">Kuis 1</a>
+                  <a href="<?= base_url('kuis/ipa/2') ?>" class="btn btn-primary">Kuis 2</a>
+                  <a href="<?= base_url('kuis/ipa/3') ?>" class="btn btn-primary">Kuis 3</a>
+               </div>
+            </div>
+         </div>
+
+         <!-- Subject 4 -->
+         <div class="col-md-4">
+            <div class="card">
+               <div class="card-body">
+                  <h5 class="card-title">Ilmu Pengetahuan Sosial</h5>
+                  <a href="<?= base_url('kuis/ips/1') ?>" class="btn btn-primary">Kuis 1</a>
+                  <a href="<?= base_url('kuis/ips/2') ?>" class="btn btn-primary">Kuis 2</a>
+                  <a href="<?= base_url('kuis/ips/3') ?>" class="btn btn-primary">Kuis 3</a>
+               </div>
+            </div>
+         </div>
+
+         <!-- Subject 5 -->
+         <div class="col-md-4">
+            <div class="card">
+               <div class="card-body">
+                  <h5 class="card-title">Bahasa Indonesia</h5>
+                  <a href="<?= base_url('kuis/bindo/1') ?>" class="btn btn-primary">Kuis 1</a>
+                  <a href="<?= base_url('kuis/bindo/2') ?>" class="btn btn-primary">Kuis 2</a>
+                  <a href="<?= base_url('kuis/bindo/3') ?>" class="btn btn-primary">Kuis 3</a>
+               </div>
+            </div>
          </div>
       </div>
    </div>
-   <!-- blog section end -->
+   <!-- Quiz Container End -->
 
    <!-- footer section start -->
    <div class="footer_section layout_padding">
@@ -115,6 +167,7 @@
    <script src="<?= base_url('js/custom.js') ?>"></script>
    <script src="<?= base_url('js/owl.carousel.js') ?>"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+   <script src="<?= base_url('js/quiz.js') ?>"></script>
 </body>
 
 </html>

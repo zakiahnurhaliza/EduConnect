@@ -10,7 +10,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
    <!-- site metas -->
-   <title>Contact</title>
+   <title>About</title>
    <meta name="keywords" content="">
    <meta name="description" content="">
    <meta name="author" content="">
@@ -21,7 +21,7 @@
    <!-- Responsive-->
    <link rel="stylesheet" href="<?= base_url('css/responsive.css') ?>">
    <!-- fevicon -->
-   <link rel="icon" href="<?= base_url('images/fevicon.png') ?>" type="image/gif" />
+   <link rel="icon" href="<?= base_url('images/logotab.png') ?>" type="image/gif" />
    <!-- Scrollbar Custom CSS -->
    <link rel="stylesheet" href="<?= base_url('css/jquery.mCustomScrollbar.min.css') ?>">
    <!-- Tweaks for older IEs-->
@@ -40,7 +40,7 @@
       <div class="header_main">
          <div class="mobile_menu">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <div class="logo_mobile"><a href="<?= base_url('index') ?>"><img src="<?= base_url('images/logo.png') ?>"></a></div>
+               <div class="logo_mobile"><a href="<?= base_url('index') ?>"><img src="images/logoedu.png"></a></div>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                </button>
@@ -49,21 +49,19 @@
                      <li class="nav-item"><a class="nav-link" href="<?= base_url('/') ?>">Home</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url('materi') ?>">Materi</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url('kuis') ?>">Kuis</a></li>
-                     <li class="nav-item"><a class="nav-link" href="<?= base_url('about') ?>">About</a></li>
-                     <li class="nav-item"><a class="nav-link active" href="<?= base_url('contact') ?>">Contact</a></li>
+                     <li class="nav-item"><a class="nav-link menu-link" href="<?= base_url('buku') ?>" data-page="buku">buku</a></li>
                   </ul>
                </div>
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="logo"><a href="<?= base_url('index') ?>"><img src="<?= base_url('images/logo.png') ?>"></a></div>
+            <div class="logo"><a href="<?= base_url('index') ?>"><img src="images/logoedu.png"></a></div>
             <div class="menu_main">
                <ul>
                   <li><a href="<?= base_url('/') ?>">Home</a></li>
                   <li><a href="<?= base_url('materi') ?>">Materi</a></li>
                   <li><a href="<?= base_url('kuis') ?>">Kuis</a></li>
-                  <li><a href="<?= base_url('about') ?>">About</a></li>
-                  <li class="active"><a href="<?= base_url('contact') ?>">Contact us</a></li>
+                  <li class="active"><a href="<?= base_url('buku') ?>">Buku</a></li>
                </ul>
             </div>
          </div>
@@ -71,38 +69,30 @@
    </div>
    <!-- header section end -->
 
-   <!-- contact section start -->
-   <div class="contact_section layout_padding">
+   <!-- buku section start -->
+   <div class="services_section layout_padding">
       <div class="container">
-         <h1 class="contact_taital">Contact Us</h1>
-         <p class="contact_text">If you have any questions, feel free to reach out to us!</p>
-         <div class="row">
-            <div class="col-md-6">
-               <form>
-                  <div class="form-group">
-                     <label for="name">Name</label>
-                     <input type="text" class="form-control" id="name" placeholder="Enter your name">
-                  </div>
-                  <div class="form-group">
-                     <label for="email">Email</label>
-                     <input type="email" class="form-control" id="email" placeholder="Enter your email">
-                  </div>
-                  <div class="form-group">
-                     <label for="message">Message</label>
-                     <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-               </form>
-            </div>
-            <div class="col-md-6">
-               <h3>Contact Information</h3>
-               <p><strong>Email:</strong> zkianh24@gmail.com</p>
+         <h1 class="services_taital">Buku</h1>
+         <p class="services_text">Berikut merupakan beberapa bahan bacaan yang bisa digunakan dalam pembelajaran</p>
+         <div class="services_section_2">
+            <div class="row">
+               <div class="col-md-4">
+                  <div><img src="images/buku1.jpg" class="services_img"></div>
+                  <div class="btn_main"><a href="#">Informatika Kelas 10</a></div>
+               </div>
+               <div class="col-md-4">
+                  <div><img src="images/buku2.jpg" class="services_img"></div>
+                  <div class="btn_main active"><a href="#">Bahasa Inggris Kelas 10</a></div>
+               </div>
+               <div class="col-md-4">
+                  <div><img src="images/buku3.jpg" class="services_img"></div>
+                  <div class="btn_main"><a href="#">Informatika Kelas 11</a></div>
+               </div>
             </div>
          </div>
       </div>
    </div>
-   <!-- contact section end -->
-
+   <!-- services section end -->
    <!-- footer section start -->
    <div class="footer_section layout_padding">
       <div class="social_icon">

@@ -18,7 +18,7 @@
    <!-- Responsive -->
    <link rel="stylesheet" href="<?= base_url('css/responsive.css') ?>">
    <!-- fevicon -->
-   <link rel="icon" href="<?= base_url('images/fevicon.png') ?>" type="image/gif" />
+   <link rel="icon" href="<?= base_url('images/logotab.png') ?>" type="image/gif" />
    <!-- fonts -->
    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Righteous&display=swap" rel="stylesheet">
    <!-- owl stylesheets -->
@@ -33,7 +33,7 @@
       <div class="header_main">
          <div class="mobile_menu">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <div class="logo_mobile"><a href="<?= base_url('/') ?>"><img src="<?= base_url('images/logo.png') ?>"></a></div>
+               <div class="logo_mobile"><a href="<?= base_url('/') ?>"><img src="<?= base_url('images/logoedu.png') ?>"></a></div>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                </button>
@@ -42,21 +42,19 @@
                      <li class="nav-item"><a class="nav-link active" href="<?= base_url('/') ?>">Home</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url('materi') ?>">Materi</a></li>
                      <li class="nav-item"><a class="nav-link" href="<?= base_url('kuis') ?>">Kuis</a></li>
-                     <li class="nav-item"><a class="nav-link" href="<?= base_url('about') ?>">About</a></li>
-                     <li class="nav-item"><a class="nav-link" href="<?= base_url('contact') ?>">Contact</a></li>
+                     <li class="nav-item"><a class="nav-link" href="<?= base_url('buku') ?>">Buku</a></li>
                   </ul>
                </div>
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="logo"><a href="<?= base_url('/') ?>"><img src="<?= base_url('images/logo.png') ?>"></a></div>
+            <div class="logo"><a href="<?= base_url('/') ?>"><img src="<?= base_url('images/logoedu.png') ?>"></a></div>
             <div class="menu_main">
                <ul>
                   <li class="active"><a href="<?= base_url('/') ?>">Home</a></li>
                   <li><a href="<?= base_url('materi') ?>">Materi</a></li>
                   <li><a href="<?= base_url('kuis') ?>">Kuis</a></li>
-                  <li><a href="<?= base_url('about') ?>">About</a></li>
-                  <li><a href="<?= base_url('contact') ?>">Contact us</a></li>
+                  <li><a href="<?= base_url('buku') ?>">Buku</a></li>
                </ul>
             </div>
          </div>
@@ -89,30 +87,7 @@
       <!-- banner section end -->
    </div>
    <!-- header section end -->
-   <!-- services section start -->
-   <div class="services_section layout_padding">
-      <div class="container">
-         <h1 class="services_taital">Services</h1>
-         <p class="services_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
-         <div class="services_section_2">
-            <div class="row">
-               <div class="col-md-4">
-                  <div><img src="images/img-1.png" class="services_img"></div>
-                  <div class="btn_main"><a href="#">Rafting</a></div>
-               </div>
-               <div class="col-md-4">
-                  <div><img src="images/img-2.png" class="services_img"></div>
-                  <div class="btn_main active"><a href="#">Hiking</a></div>
-               </div>
-               <div class="col-md-4">
-                  <div><img src="images/img-3.png" class="services_img"></div>
-                  <div class="btn_main"><a href="#">Camping</a></div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- services section end -->
+
    <!-- about section start -->
    <div class="about_section layout_padding">
       <div class="container-fluid">
@@ -120,8 +95,15 @@
             <div class="col-md-6">
                <div class="about_taital_main">
                   <h1 class="about_taital">About Us</h1>
-                  <p class="about_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                  <div class="readmore_bt"><a href="<?= base_url('about') ?>">Read More</a></div>
+                  <p class="about_text">
+                     🌐 Selamat Datang di Website <strong>Education Connection</strong><br><br>
+                     Website ini dirancang untuk menjadi sarana pembelajaran digital yang mudah diakses, informatif, dan interaktif.<br><br>
+                     Melalui platform ini, pengguna dapat:<br><br>
+                     📘 Mengakses materi pembelajaran yang tersusun secara sistematis dan relevan.<br>
+                     🧠 Mengerjakan kuis untuk menguji dan mengasah pemahaman terhadap materi yang telah dipelajari.<br>
+                     📚 Menjelajahi tautan ke buku atau referensi tambahan sebagai pendalaman materi.<br><br>
+                     Kami berharap website ini dapat menjadi sumber belajar yang bermanfaat bagi siapa saja yang ingin memperluas pengetahuan secara fleksibel dan mandiri.
+                  </p>
                </div>
             </div>
             <div class="col-md-6 padding_right_0">
@@ -204,8 +186,7 @@
    <div class="choose_section layout_padding">
       <div class="container">
          <h1 class="choose_taital">Why Choose Us</h1>
-         <p class="choose_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-         <div class="read_bt_1"><a href="#">Read More</a></div>
+         <p class="choose_text">Kami menghadirkan media pembelajaran digital yang dapat diakses kapan saja dan di mana saja. Dengan desain yang sederhana namun interaktif, pengguna dapat belajar secara mandiri dan fleksibel. Materi dan kuis yang tersedia juga dapat diperbarui secara berkala sesuai perkembangan dan kebutuhan pembelajaran, sehingga selalu relevan dan up-to-date.</p>
       </div>
    </div>
    <!-- choose section end -->
