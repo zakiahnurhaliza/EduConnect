@@ -15,6 +15,7 @@ class Kuis extends BaseController
 
     public function mulai($mapel)
     {
+        // Ambil soal berdasarkan mata pelajaran
         $kuisModel = new KuisModel();
         $soal = $kuisModel->where('mata_pelajaran_id', $mapel)->findAll();
 
@@ -30,33 +31,31 @@ class Kuis extends BaseController
     {
         // Ambil data dari form
         $jawaban = $this->request->getPost('jawaban');
-        $siswa_id = $this->request->getPost('siswa_id');
-        $nama_siswa = $this->request->getPost('name');
-        $kuis_id = $this->request->getPost('mata_pelajaran'); // Menggunakan mata pelajaran sebagai kuis_id
+        $mata_pelajaran = $this->request->getPost('mata_pelajaran');
+        $siswa_id = $this->request->getPost('siswa_id');       // Ambil dari form
+        $nama_siswa = $this->request->getPost('nama_siswa');   // Ambil dari form
 
-        // Kalkulasi skor (contoh sederhana: hitung jawaban benar)
+        // Hitung skor berdasarkan jawaban siswa
         $skor = 0;
-        $kuisModel = new KuisModel();
-        foreach ($jawaban as $soal_id => $jawab) {
-            $soal = $kuisModel->find($soal_id);  // Ambil soal berdasarkan ID
-            if ($soal && $soal['jawaban_benar'] == $jawab) {
-                $skor++;  // Skor bertambah jika jawaban benar
+        foreach ($jawaban as $id_soal => $jawaban_siswa) {
+            $kuisModel = new KuisModel();
+            $soal = $kuisModel->find($id_soal);
+            if ($soal && $soal['jawaban_benar'] === $jawaban_siswa) {
+                $skor++;
             }
         }
 
-        // Menyimpan hasil kuis
+        // Simpan hasil ke dalam tabel hasil_kuis
         $data = [
-            'siswa_id'   => $siswa_id,
+            'siswa_id' => $siswa_id,
             'nama_siswa' => $nama_siswa,
-            'kuis_id'    => $kuis_id,
-            'skor'       => $skor
+            'kuis_id' => $mata_pelajaran,
+            'skor' => $skor,
         ];
 
-        // Simpan data ke tabel hasil_kuis
         $hasilModel = new HasilKuisModel();
-        $hasilModel->simpanHasil($data);
+        $hasilModel->insert($data);  // Simpan hasil kuis
 
-        // Redirect ke halaman selesai
-        return redirect()->to(base_url('kuis/selesai'));
+        return redirect()->to(base_url('kuis/selesai'));  // Redirect ke halaman selesai
     }
 }

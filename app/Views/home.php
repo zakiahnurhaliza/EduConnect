@@ -59,119 +59,63 @@
             </div>
          </div>
       </div>
-      <!-- banner section start -->
-      <div class="banner_section layout_padding">
-         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <div class="container">
-                     <h1 class="banner_taital">Semangat Belajar!</h1>
-                     <p class="banner_text">"Kegagalan itu guru terbaik. Yang penting kamu terus mencoba dan tidak menyerah."</p>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <h1 class="banner_taital">Belajar Itu Keren</h1>
-                     <p class="banner_text">"Belajar bukan beban, tapi jalan menuju impian."</p>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <h1 class="banner_taital">Fokus dan Konsisten</h1>
-                     <p class="banner_text">"Orang hebat bukan karena bakat, tapi karena mereka tidak pernah berhenti belajar."</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- banner section end -->
-   </div>
-   <!-- header section end -->
+      <!-- header section end -->
 
-   <!-- about section start -->
-   <div class="about_section layout_padding">
-      <div class="container-fluid">
-         <div class="row">
-            <div class="col-md-6">
-               <div class="about_taital_main">
-                  <h1 class="about_taital">About Us</h1>
-                  <p class="about_text">
-                     🌐 Selamat Datang di Website <strong>Education Connection</strong><br><br>
-                     Website ini dirancang untuk menjadi sarana pembelajaran digital yang mudah diakses, informatif, dan interaktif.<br><br>
-                     Melalui platform ini, pengguna dapat:<br><br>
-                     📘 Mengakses materi pembelajaran yang tersusun secara sistematis dan relevan.<br>
-                     🧠 Mengerjakan kuis untuk menguji dan mengasah pemahaman terhadap materi yang telah dipelajari.<br>
-                     📚 Menjelajahi tautan ke buku atau referensi tambahan sebagai pendalaman materi.<br><br>
-                     Kami berharap website ini dapat menjadi sumber belajar yang bermanfaat bagi siapa saja yang ingin memperluas pengetahuan secara fleksibel dan mandiri.
-                  </p>
+      <!-- about section start -->
+      <div class="about_section layout_padding">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="about_taital_main">
+                     <h1 class="about_taital">About Us</h1>
+                     <p class="about_text">
+                        🌐 Selamat Datang di Website <strong>Education Connection</strong><br><br>
+                        Website ini dirancang untuk menjadi sarana pembelajaran digital yang mudah diakses, informatif, dan interaktif.<br><br>
+                        Melalui platform ini, pengguna dapat:<br><br>
+                        📘 Mengakses materi pembelajaran yang tersusun secara sistematis dan relevan.<br>
+                        🧠 Mengerjakan kuis untuk menguji dan mengasah pemahaman terhadap materi yang telah dipelajari.<br>
+                        📚 Menjelajahi tautan ke buku atau referensi tambahan sebagai pendalaman materi.<br><br>
+                        Kami berharap website ini dapat menjadi sumber belajar yang bermanfaat bagi siapa saja yang ingin memperluas pengetahuan secara fleksibel dan mandiri.
+                     </p>
+                  </div>
                </div>
-            </div>
-            <div class="col-md-6 padding_right_0">
-               <div><img src="images/about-img.png" class="about_img"></div>
+               <div class="col-mt-3">
+                  <div><img src="images/about_img.png" class="about_img"></div>
+               </div>
             </div>
          </div>
       </div>
-   </div>
-   <!-- blog section end -->
-   <!-- client section start -->
-   <div class="client_section layout_padding">
-      <div class="container">
-         <h1 class="client_taital">Testimonial</h1>
-         <div class="client_section_2">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-               <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-               </ol>
-               <div class="carousel-inner">
-                  <div class="carousel-item active">
-                     <div class="client_main">
-                        <div class="box_left">
-                           <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                        <div class="box_right">
-                           <div class="client_taital_left">
-                              <div class="client_img"><img src="images/client-img.png"></div>
-                              <div class="quick_icon"><img src="images/quick-icon.png"></div>
-                           </div>
-                           <div class="client_taital_right">
-                              <h4 class="client_name">Dame</h4>
-                              <p class="customer_text">Customer</p>
+      <!-- blog section end -->
+      <!-- client section start -->
+      <div class="client_section layout_padding">
+         <div class="container">
+            <h1 class="client_taital">Quotes of The Day</h1>
+            <div class="client_section_2">
+               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <div class="client_main">
+                           <div class="box_left">
+                              <p class="lorem_text">"Kegagalan itu guru terbaik. Yang penting kamu terus mencoba dan tidak menyerah."</p>
                            </div>
                         </div>
                      </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="client_main">
-                        <div class="box_left">
-                           <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                        <div class="box_right">
-                           <div class="client_taital_left">
-                              <div class="client_img"><img src="images/client-img.png"></div>
-                              <div class="quick_icon"><img src="images/quick-icon.png"></div>
-                           </div>
-                           <div class="client_taital_right">
-                              <h4 class="client_name">Dame</h4>
-                              <p class="customer_text">Customer</p>
+                     <div class="carousel-item">
+                        <div class="client_main">
+                           <div class="box_left">
+                              <p class="lorem_text">"Belajar bukan beban, tapi jalan menuju impian."</p>
                            </div>
                         </div>
                      </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="client_main">
-                        <div class="box_left">
-                           <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                        <div class="box_right">
-                           <div class="client_taital_left">
-                              <div class="client_img"><img src="images/client-img.png"></div>
-                              <div class="quick_icon"><img src="images/quick-icon.png"></div>
-                           </div>
-                           <div class="client_taital_right">
-                              <h4 class="client_name">Dame</h4>
-                              <p class="customer_text">Customer</p>
+                     <div class="carousel-item">
+                        <div class="client_main">
+                           <div class="box_left">
+                              <p class="lorem_text">"Orang hebat bukan karena bakat, tapi karena mereka tidak pernah berhenti belajar."</p>
                            </div>
                         </div>
                      </div>
@@ -180,27 +124,26 @@
             </div>
          </div>
       </div>
-   </div>
-   <!-- client section end -->
-   <!-- choose section start -->
-   <div class="choose_section layout_padding">
-      <div class="container">
-         <h1 class="choose_taital">Why Choose Us</h1>
-         <p class="choose_text">Kami menghadirkan media pembelajaran digital yang dapat diakses kapan saja dan di mana saja. Dengan desain yang sederhana namun interaktif, pengguna dapat belajar secara mandiri dan fleksibel. Materi dan kuis yang tersedia juga dapat diperbarui secara berkala sesuai perkembangan dan kebutuhan pembelajaran, sehingga selalu relevan dan up-to-date.</p>
+      <!-- client section end -->
+      <!-- choose section start -->
+      <div class="choose_section layout_padding">
+         <div class="container">
+            <h1 class="choose_taital">Why Choose Us</h1>
+            <p class="choose_text">Kami menghadirkan media pembelajaran digital yang dapat diakses kapan saja dan di mana saja. Dengan desain yang sederhana namun interaktif, pengguna dapat belajar secara mandiri dan fleksibel. Materi dan kuis yang tersedia juga dapat diperbarui secara berkala sesuai perkembangan dan kebutuhan pembelajaran, sehingga selalu relevan dan up-to-date.</p>
+         </div>
       </div>
-   </div>
-   <!-- choose section end -->
-   <!-- footer section start -->
-   <div class="footer_section layout_padding">
-      <div class="social_icon">
-         <ul>
-            <li><a href="#"><img src="<?= base_url('images/fb-icon.png') ?>"></a></li>
-            <li><a href="#"><img src="<?= base_url('images/twitter-icon.png') ?>"></a></li>
-            <li><a href="#"><img src="<?= base_url('images/linkedin-icon.png') ?>"></a></li>
-            <li><a href="#"><img src="<?= base_url('images/instagram-icon.png') ?>"></a></li>
-         </ul>
+      <!-- choose section end -->
+      <!-- footer section start -->
+      <div class="footer_section layout_padding">
+         <div class="social_icon">
+            <ul>
+               <li><a href="#"><img src="<?= base_url('images/fb-icon.png') ?>"></a></li>
+               <li><a href="#"><img src="<?= base_url('images/twitter-icon.png') ?>"></a></li>
+               <li><a href="#"><img src="<?= base_url('images/linkedin-icon.png') ?>"></a></li>
+               <li><a href="#"><img src="<?= base_url('images/instagram-icon.png') ?>"></a></li>
+            </ul>
+         </div>
       </div>
-   </div>
    </div>
    <!-- footer section end -->
 

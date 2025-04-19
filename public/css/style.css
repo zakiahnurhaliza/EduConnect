@@ -444,16 +444,16 @@ button {
     color: #ffffff;
     background-color: #2b2278;
     text-align: center;
-    padding: 10px 0px;
+    padding: 0px 0px;
     border-radius: 30px;
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 30px;
     text-transform: uppercase;
 }
 
 .btn_main a:hover {
     color: #ffffff;
-    background-color: #000d10;
+    background-color: #2b2278;
 }
 
 .btn_main.active a {
@@ -476,11 +476,12 @@ button {
 .about_taital_main {
     width: 100%;
     padding-left: 100px;
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 .padding_right_0 {
-    padding-right: 0px;
+    padding: center;
+    margin: left;
 }
 
 .about_taital {
@@ -497,36 +498,13 @@ button {
     font-size: 16px;
     color: #1f1f1f;
     margin: 0px;
-    padding-top: 40px;
-}
-
-.readmore_bt {
-    width: 170px;
-    float: left;
-    margin-top: 50px;
-}
-
-.readmore_bt a {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #ffffff;
-    background-color: #000d10;
-    text-align: center;
-    padding: 10px 0px;
-    border-radius: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.readmore_bt a:hover {
-    color: #ffffff;
-    background-color: #2b2278;
+    padding-top: 0px;
 }
 
 .about_img {
     width: 100%;
     float: left;
+    margin-left: -20px;
 }
 
 
@@ -617,6 +595,8 @@ button {
     width: 100%;
     float: left;
     padding-bottom: 160px;
+    display: flex;
+    justify-content: center;
 }
 
 .client_taital {
@@ -629,30 +609,21 @@ button {
 }
 
 .client_section_2 {
-    width: 100%;
-    margin: 0 auto;
+    width: fit-content;
     text-align: center;
     background-color: #ffffff;
     box-shadow: 0px 1px 16px -6px;
     border-radius: 30px;
     padding: 50px 70px;
     margin-top: 50px;
+    min-height: 100vh;
+    align-items: center;
+
 }
 
 .client_main {
     width: 100%;
     display: flex;
-}
-
-.box_left {
-    width: 48%;
-}
-
-.box_right {
-    width: 48%;
-    float: right;
-    padding-top: 65px;
-    margin-left: 30px;
 }
 
 .lorem_text {
@@ -676,40 +647,12 @@ button {
     float: left;
 }
 
-.client_img {
-    width: 100%;
-    float: left;
-    text-align: left;
-}
 
 .quick_icon {
     width: 100%;
     float: left;
     text-align: center;
     padding-top: 30px;
-}
-
-.client_name {
-    width: 100%;
-    float: left;
-    font-size: 24px;
-    color: #012628;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: left;
-    padding-top: 53px;
-    padding-bottom: 0px;
-}
-
-.customer_text {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #085a57;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: left;
-    margin: 0px;
 }
 
 .carousel-indicators li {
@@ -890,7 +833,6 @@ button {
 .footer_section {
     width: 100%;
     float: left;
-    background-image: url(../images/footer-bg.png);
     height: auto;
     padding-top: 250px;
     background-size: 100% 100%;

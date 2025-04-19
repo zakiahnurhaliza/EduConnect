@@ -2,46 +2,30 @@
 <html lang="en">
 
 <head>
-   <!-- basic -->
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <!-- mobile metas -->
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-   <!-- site metas -->
    <title>Materi</title>
-   <meta name="keywords" content="">
-   <meta name="description" content="">
-   <meta name="author" content="">
-   <!-- bootstrap css -->
    <link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css') ?>">
-   <!-- style css -->
    <link rel="stylesheet" href="<?= base_url('css/style.css') ?>">
-   <!-- Responsive-->
    <link rel="stylesheet" href="<?= base_url('css/responsive.css') ?>">
-   <!-- fevicon -->
    <link rel="icon" href="<?= base_url('images/logotab.png') ?>" type="image/gif" />
-   <!-- Scrollbar Custom CSS -->
    <link rel="stylesheet" href="<?= base_url('css/jquery.mCustomScrollbar.min.css') ?>">
-   <!-- Tweaks for older IEs-->
    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-   <!-- fonts -->
    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Righteous&display=swap" rel="stylesheet">
-   <!-- owl stylesheets -->
    <link rel="stylesheet" href="<?= base_url('css/owl.carousel.min.css') ?>">
    <link rel="stylesheet" href="<?= base_url('css/owl.theme.default.min.css') ?>">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 </head>
 
 <body>
-   <!-- header section start -->
+   <!-- Header -->
    <div class="header_section">
       <div class="header_main">
          <div class="mobile_menu">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                <div class="logo_mobile"><a href="<?= base_url('index') ?>"><img src="<?= base_url('images/logoedu.png') ?>"></a></div>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
                   <span class="navbar-toggler-icon"></span>
                </button>
                <div class="collapse navbar-collapse" id="navbarNav">
@@ -67,9 +51,8 @@
          </div>
       </div>
    </div>
-   <!-- header section end -->
 
-   <!-- services section start -->
+   <!-- Services -->
    <div class="services_section layout_padding">
       <div class="container">
          <h1 class="services_taital">Pilihan Materi Pembelajaran</h1>
@@ -96,25 +79,24 @@
          </div>
       </div>
    </div>
-   <!-- services section end -->
 
-   <!-- Modal for Materi 1 -->
-   <div class="modal fade" id="materi1Modal" tabindex="-1" role="dialog" aria-labelledby="materi1ModalLabel" aria-hidden="true">
+   <!-- Modal Materi 1 -->
+   <div class="modal fade" id="materi1Modal" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
          <div class="modal-content">
             <div class="modal-header">
-               <h5 class="modal-title" id="materi1ModalLabel">Materi 1: Matematika</h5>
-               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-               </button>
+               <h5 class="modal-title">Materi 1: Matematika</h5>
+               <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
             </div>
             <div class="modal-body">
-               <p>Pelajari konsep dasar matematika, termasuk aljabar, geometri, dan statistik. Berikut adalah beberapa contoh dan latihan yang dapat Anda coba:</p>
-               <ul>
-                  <li>Contoh 1: Menyelesaikan persamaan linear.</li>
-                  <li>Contoh 2: Menghitung luas dan keliling bangun datar.</li>
-                  <li>Latihan: Selesaikan soal-soal berikut untuk menguji pemahaman Anda.</li>
-               </ul>
+               <h3>📘 Materi Singkat: Operasi Hitung Campuran</h3>
+               <p>Operasi hitung campuran melibatkan penjumlahan, pengurangan, perkalian, dan pembagian.</p>
+               <ol>
+                  <li>Kerjakan dalam kurung terlebih dahulu</li>
+                  <li>Perkalian dan pembagian dari kiri ke kanan</li>
+                  <li>Penjumlahan dan pengurangan dari kiri ke kanan</li>
+               </ol>
+               <p><strong>Contoh:</strong> 12 ÷ (2 × 2) = 3</p>
             </div>
             <div class="modal-footer">
                <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
@@ -123,24 +105,22 @@
       </div>
    </div>
 
-   <!-- Modal for Materi 2 -->
-   <div class="modal fade" id="materi2Modal" tabindex="-1" role="dialog" aria-labelledby="materi2ModalLabel" aria-hidden="true">
+   <!-- Modal Materi 2 -->
+   <div class="modal fade" id="materi2Modal" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
          <div class="modal-content">
             <div class="modal-header">
-               <h5 class="modal-title" id="materi2ModalLabel">Materi 2: Bahasa Inggris</h5>
-               <button type="button" class
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-               </button>
+               <h5 class="modal-title">Materi 2: Bahasa Inggris</h5>
+               <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
             </div>
             <div class="modal-body">
-               <p>Kembangkan kemampuan berbahasa Inggris Anda melalui latihan berbicara, mendengarkan, dan menulis. Berikut adalah beberapa contoh dan latihan yang dapat Anda coba:</p>
+               <h3>📘 Penggunaan <em>is, am, are</em></h3>
                <ul>
-                  <li>Contoh 1: Membuat kalimat sederhana.</li>
-                  <li>Contoh 2: Mendengarkan dialog dan menjawab pertanyaan.</li>
-                  <li>Latihan: Cobalah untuk berbicara dengan teman dalam bahasa Inggris.</li>
+                  <li><strong>am</strong>: I</li>
+                  <li><strong>is</strong>: he, she, it</li>
+                  <li><strong>are</strong>: you, we, they</li>
                </ul>
+               <p><strong>Contoh soal:</strong> He ___ playing football. <br>Jawaban: <strong>is</strong></p>
             </div>
             <div class="modal-footer">
                <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
@@ -149,23 +129,18 @@
       </div>
    </div>
 
-   <!-- Modal for Materi 3 -->
-   <div class="modal fade" id="materi3Modal" tabindex="-1" role="dialog" aria-labelledby="materi3ModalLabel" aria-hidden="true">
+   <!-- Modal Materi 3 -->
+   <div class="modal fade" id="materi3Modal" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
          <div class="modal-content">
             <div class="modal-header">
-               <h5 class="modal-title" id="materi3ModalLabel">Materi 3: Ilmu Pengetahuan Alam</h5>
-               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-               </button>
+               <h5 class="modal-title">Materi 3: Ilmu Pengetahuan Alam</h5>
+               <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
             </div>
             <div class="modal-body">
-               <p>Jelajahi dunia sains dengan mempelajari biologi, fisika, dan kimia. Berikut adalah beberapa contoh dan latihan yang dapat Anda coba:</p>
-               <ul>
-                  <li>Contoh 1: Memahami siklus hidup tanaman.</li>
-                  <li>Contoh 2: Mengamati hukum Newton dalam gerakan.</li>
-                  <li>Latihan: Lakukan eksperimen sederhana di rumah dan catat hasilnya.</li>
-               </ul>
+               <h3>📘 Pengelompokan Makhluk Hidup</h3>
+               <p>Makhluk hidup dikelompokkan menjadi: Tumbuhan, Hewan, Jamur, Protista, Monera.</p>
+               <p><strong>Contoh soal:</strong> Yang termasuk makhluk hidup? <br>Jawaban: <strong>Pohon</strong></p>
             </div>
             <div class="modal-footer">
                <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
@@ -174,7 +149,7 @@
       </div>
    </div>
 
-   <!-- footer section start -->
+   <!-- Footer -->
    <div class="footer_section layout_padding">
       <div class="social_icon">
          <ul>
@@ -185,22 +160,18 @@
          </ul>
       </div>
    </div>
-   </div>
-   <!-- footer section end -->
 
-   <!-- copyright section start -->
+   <!-- Copyright -->
    <div class="copyright_section">
       <div class="container">
          <p class="copyright_text">2025 All Rights Reserved.</p>
       </div>
    </div>
-   <!-- copyright section end -->
 
-   <!-- Javascript files-->
+   <!-- JS -->
    <script src="<?= base_url('js/jquery.min.js') ?>"></script>
    <script src="<?= base_url('js/popper.min.js') ?>"></script>
    <script src="<?= base_url('js/bootstrap.bundle.min.js') ?>"></script>
-   <script src="<?= base_url('js/jquery-3.0.0.min.js') ?>"></script>
    <script src="<?= base_url('js/plugin.js') ?>"></script>
    <script src="<?= base_url('js/jquery.mCustomScrollbar.concat.min.js') ?>"></script>
    <script src="<?= base_url('js/custom.js') ?>"></script>

@@ -21,11 +21,11 @@
 
          <!-- Input identitas siswa -->
          <div class="mb-3">
-            <label for="name" class="form-label">Nama Siswa</label>
-            <input type="text" class="form-control" id="name" name="name" required>
+            <label for="nama_siswa" class="form-label">Nama Siswa</label>
+            <input type="text" class="form-control" id="nama_siswa" name="nama_siswa" required>
          </div>
          <div class="mb-3">
-            <label for="no_absen" class="form-label">Siswa Id</label>
+            <label for="siswa_id" class="form-label">Siswa Id</label>
             <input type="number" class="form-control" id="siswa_id" name="siswa_id" required>
          </div>
          <input type="hidden" name="mata_pelajaran" value="<?= $mapel ?>">

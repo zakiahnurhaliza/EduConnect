@@ -10,7 +10,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
    <!-- site metas -->
-   <title>About</title>
+   <title>Buku</title>
    <meta name="keywords" content="">
    <meta name="description" content="">
    <meta name="author" content="">
@@ -77,22 +77,23 @@
          <div class="services_section_2">
             <div class="row">
                <div class="col-md-4">
-                  <div><img src="images/buku1.jpg" class="services_img"></div>
-                  <div class="btn_main"><a href="#">Informatika Kelas 10</a></div>
+                  <div><img src="images/buku1.png" class="services_img"></div>
+                  <div class="btn_main"><a href="https://static.buku.kemdikbud.go.id/content/pdf/bukuteks/kurikulum21/Informatika-BS-KLS-X.pdf" target="_blank">Informatika</a></div>
                </div>
                <div class="col-md-4">
-                  <div><img src="images/buku2.jpg" class="services_img"></div>
-                  <div class="btn_main active"><a href="#">Bahasa Inggris Kelas 10</a></div>
+                  <div><img src="images/buku2.png" class="services_img"></div>
+                  <div class="btn_main active"><a href="https://static.buku.kemdikbud.go.id/content/pdf/bukuteks/kurikulum21/Bahasa-Inggris-BS-KLS-X.pdf" target="_blank">Bahasa Inggris</a></div>
                </div>
                <div class="col-md-4">
-                  <div><img src="images/buku3.jpg" class="services_img"></div>
-                  <div class="btn_main"><a href="#">Informatika Kelas 11</a></div>
+                  <div><img src="images/buku3.png" class="services_img"></div>
+                  <div class="btn_main"><a href="https://static.buku.kemdikbud.go.id/content/pdf/bukuteks/kurikulum21/Matematika-BS-KLS-X.pdf" target="_blank">Matematika</a></div>
                </div>
+
             </div>
          </div>
       </div>
    </div>
-   <!-- services section end -->
+   <!-- buku section end -->
    <!-- footer section start -->
    <div class="footer_section layout_padding">
       <div class="social_icon">
