@@ -419,7 +419,7 @@ button {
 
 .service_box {
     border: 1px solid #ddd;
-    padding: 20px;
+    padding: 30px;
     border-radius: 5px;
     text-align: center;
     background-color: #fff;
@@ -458,7 +458,7 @@ button {
 
 .btn_main.active a {
     color: #ffffff;
-    background-color: #000d10;
+    background-color: #2b2278;
 }
 
 
@@ -588,87 +588,51 @@ button {
 }
 /* blog section end */
 
-
-/* client section start */
-
-.client_section {
-    width: 100%;
-    float: left;
-    padding-bottom: 160px;
+.client_section_2 {
+    background-color: #ffffff;
+    box-shadow: 0px 1px 16px -6px;
+    border-radius: 30px;
+    padding: 30px 20px;
+    margin-top: 30px;
+    max-width: 700px;
+    width: 90%;
+    height: 300px; /* <- tinggi tetap */
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.client_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .client_taital {
     width: 100%;
     font-size: 40px;
-    color: #131313;
+    color: #1f1f1f;
     font-weight: bold;
-    padding-top: 30px;
     text-align: center;
-}
-
-.client_section_2 {
-    width: fit-content;
-    text-align: center;
-    background-color: #ffffff;
-    box-shadow: 0px 1px 16px -6px;
-    border-radius: 30px;
-    padding: 50px 70px;
-    margin-top: 50px;
-    min-height: 100vh;
-    align-items: center;
-
-}
-
-.client_main {
-    width: 100%;
-    display: flex;
 }
 
 .lorem_text {
-    width: 100%;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
-    margin: 0px;
     color: #0d0d0d;
     border: 1px solid #0d0d0d;
-    padding: 90px 30px;
+    padding: 40px 20px;
     border-radius: 30px;
-}
-
-.client_taital_left {
-    width: 40%;
-    float: left;
-}
-
-.client_taital_right {
-    width: 60%;
-    float: left;
-}
-
-
-.quick_icon {
+    max-width: 600px;
     width: 100%;
-    float: left;
-    text-align: center;
-    padding-top: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.carousel-indicators li {
-    width: 20px;
-    height: 20px;
-    border-radius: 100%;
-    background-color: #8781bd;
-    bottom: -130px;
-}
-
-.carousel-indicators .active {
-    background-color: #2b2278;
-}
-
-
-/* client section end */
 
 
 /* choose section start */

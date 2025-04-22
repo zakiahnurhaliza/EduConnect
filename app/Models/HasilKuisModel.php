@@ -6,13 +6,20 @@ use CodeIgniter\Model;
 
 class HasilKuisModel extends Model
 {
-    protected $table = 'hasil_kuis';  // Nama tabel
-    protected $primaryKey = 'id';     // Primary key
-    protected $allowedFields = ['siswa_id', 'nama_siswa', 'kuis_id', 'skor']; // Sesuaikan dengan kolom yang ada di tabel
+    protected $table = 'hasil_kuis';
+    protected $primaryKey = 'id';
+    protected $allowedFields = ['siswa_id', 'nama_siswa', 'kuis_id', 'skor'];
 
-    // Fungsi untuk menyimpan hasil kuis
+    // Optional: tambahkan validation
+    protected $validationRules = [
+        'siswa_id'    => 'required|integer',
+        'nama_siswa'  => 'required|string',
+        'kuis_id'     => 'required|integer',
+        'skor'        => 'required|integer',
+    ];
+
     public function simpanHasil($data)
     {
-        return $this->insert($data);  // Menyimpan data hasil kuis ke tabel
+        return $this->insert($data);
     }
 }

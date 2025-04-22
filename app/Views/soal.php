@@ -25,38 +25,37 @@
             <input type="text" class="form-control" id="nama_siswa" name="nama_siswa" required>
          </div>
          <div class="mb-3">
-            <label for="siswa_id" class="form-label">Siswa Id</label>
+            <label for="siswa_id" class="form-label">Siswa ID</label>
             <input type="number" class="form-control" id="siswa_id" name="siswa_id" required>
          </div>
-         <input type="hidden" name="mata_pelajaran" value="<?= $mapel ?>">
+
+         <!-- Kuis ID (hidden field) -->
+         <input type="hidden" name="kuis_id" value="<?= $kuis_id ?>">
 
          <!-- Soal kuis dari database -->
          <?php if (!empty($soal)): ?>
             <?php foreach ($soal as $index => $item): ?>
                <div class="mb-4">
                   <h5><?= ($index + 1) . '. ' . $item['pertanyaan'] ?></h5>
-
                   <!-- Pilihan jawaban -->
                   <div class="form-check">
                      <input class="form-check-input" type="radio" name="jawaban[<?= $item['id'] ?>]" value="a" required>
                      <label class="form-check-label"><?= $item['opsi_a'] ?></label>
                   </div>
                   <div class="form-check">
-                     <input class="form-check-input" type="radio" name="jawaban[<?= $item['id'] ?>]" value="b">
+                     <input class="form-check-input" type="radio" name="jawaban[<?= $item['id'] ?>]" value="b" required>
                      <label class="form-check-label"><?= $item['opsi_b'] ?></label>
                   </div>
                   <div class="form-check">
-                     <input class="form-check-input" type="radio" name="jawaban[<?= $item['id'] ?>]" value="c">
+                     <input class="form-check-input" type="radio" name="jawaban[<?= $item['id'] ?>]" value="c" required>
                      <label class="form-check-label"><?= $item['opsi_c'] ?></label>
                   </div>
                   <div class="form-check">
-                     <input class="form-check-input" type="radio" name="jawaban[<?= $item['id'] ?>]" value="d">
+                     <input class="form-check-input" type="radio" name="jawaban[<?= $item['id'] ?>]" value="d" required>
                      <label class="form-check-label"><?= $item['opsi_d'] ?></label>
                   </div>
                </div>
             <?php endforeach; ?>
-         <?php else: ?>
-            <p class="text-danger">Tidak ada soal untuk mata pelajaran ini.</p>
          <?php endif; ?>
 
          <button type="submit" class="btn btn-primary">Kirim Jawaban</button>

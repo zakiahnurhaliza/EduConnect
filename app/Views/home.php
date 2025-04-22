@@ -88,7 +88,7 @@
       <!-- blog section end -->
       <!-- client section start -->
       <div class="client_section layout_padding">
-         <div class="container">
+         <div class="container" style="max-width: 800px; min-height: 80px; margin: auto;">
             <h1 class="client_taital">Quotes of The Day</h1>
             <div class="client_section_2">
                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -108,7 +108,7 @@
                      <div class="carousel-item">
                         <div class="client_main">
                            <div class="box_left">
-                              <p class="lorem_text">"Belajar bukan beban, tapi jalan menuju impian."</p>
+                              <p class="lorem_text">"Ing Ngarsa Sung Tuladha, Ing Madya Mangun Karsa, Tut Wuri Handayani"</p>
                            </div>
                         </div>
                      </div>
@@ -134,39 +134,50 @@
       </div>
       <!-- choose section end -->
       <!-- footer section start -->
-      <div class="footer_section layout_padding">
-         <div class="social_icon">
-            <ul>
-               <li><a href="#"><img src="<?= base_url('images/fb-icon.png') ?>"></a></li>
-               <li><a href="#"><img src="<?= base_url('images/twitter-icon.png') ?>"></a></li>
-               <li><a href="#"><img src="<?= base_url('images/linkedin-icon.png') ?>"></a></li>
-               <li><a href="#"><img src="<?= base_url('images/instagram-icon.png') ?>"></a></li>
-            </ul>
+      <div class="footer_section layout_padding" style="background-color: transparent;">
+         <div class="mx-auto" style="max-width: 600px;">
+            <div class="p-4 rounded shadow text-center" style="background-color:rgb(54, 49, 39);"> <!-- Warna agak gelap -->
+               <div class="social_icon">
+                  <ul class="list-inline mb-0">
+                     <li class="list-inline-item mx-2">
+                        <a href="#"><img src="<?= base_url('images/fb-icon.png') ?>" alt="Facebook"></a>
+                     </li>
+                     <li class="list-inline-item mx-2">
+                        <a href="#"><img src="<?= base_url('images/twitter-icon.png') ?>" alt="Twitter"></a>
+                     </li>
+                     <li class="list-inline-item mx-2">
+                        <a href="#"><img src="<?= base_url('images/linkedin-icon.png') ?>" alt="LinkedIn"></a>
+                     </li>
+                     <li class="list-inline-item mx-2">
+                        <a href="#"><img src="<?= base_url('images/instagram-icon.png') ?>" alt="Instagram"></a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
          </div>
       </div>
-   </div>
-   <!-- footer section end -->
+      <!-- footer section end -->
 
-   <!-- copyright section start -->
-   <div class="copyright_section">
-      <div class="container">
-         <p class="copyright_text">2025 All Rights Reserved.</p>
+      <!-- copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">2025 All Rights Reserved.</p>
+         </div>
       </div>
-   </div>
-   <!-- copyright section end -->
+      <!-- copyright section end -->
 
-   <!-- Javascript files-->
-   <script src="<?= base_url('js/jquery.min.js') ?>"></script>
-   <script src="<?= base_url('js/popper.min.js') ?>"></script>
-   <script src="<?= base_url('js/bootstrap.bundle.min.js') ?>"></script>
-   <script src="<?= base_url('js/jquery-3.0.0.min.js') ?>"></script>
-   <script src="<?= base_url('js/plugin.js') ?>"></script>
-   <!-- sidebar -->
-   <script src="<?= base_url('js/jquery.mCustomScrollbar.concat.min.js') ?>"></script>
-   <script src="<?= base_url('js/custom.js') ?>"></script>
-   <!-- javascript -->
-   <script src="<?= base_url('js/owl.carousel.js') ?>"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <!-- Javascript files-->
+      <script src="<?= base_url('js/jquery.min.js') ?>"></script>
+      <script src="<?= base_url('js/popper.min.js') ?>"></script>
+      <script src="<?= base_url('js/bootstrap.bundle.min.js') ?>"></script>
+      <script src="<?= base_url('js/jquery-3.0.0.min.js') ?>"></script>
+      <script src="<?= base_url('js/plugin.js') ?>"></script>
+      <!-- sidebar -->
+      <script src="<?= base_url('js/jquery.mCustomScrollbar.concat.min.js') ?>"></script>
+      <script src="<?= base_url('js/custom.js') ?>"></script>
+      <!-- javascript -->
+      <script src="<?= base_url('js/owl.carousel.js') ?>"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 </body>
 
 </html>

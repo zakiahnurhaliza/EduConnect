@@ -76,6 +76,24 @@
                   <p>Jelajahi dunia sains.</p>
                </div>
             </div>
+            <div class="col-md-4">
+               <div class="service_box" data-toggle="modal" data-target="#materi4Modal">
+                  <h3>Materi 4: Informatika</h3>
+                  <p>Pelajari dasar-dasar komputer dan teknologi informasi.</p>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="service_box" data-toggle="modal" data-target="#materi5Modal">
+                  <h3>Materi 5: Ilmu Pengetahuan Sosial</h3>
+                  <p>Kenali lebih dalam tentang masyarakat dan sejarah.</p>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="service_box" data-toggle="modal" data-target="#materi6Modal">
+                  <h3>Materi 6: Bahasa Indonesia</h3>
+                  <p>Perdalam pemahaman Anda tentang bahasa dan sastra Indonesia.</p>
+               </div>
+            </div>
          </div>
       </div>
    </div>
@@ -149,17 +167,105 @@
       </div>
    </div>
 
-   <!-- Footer -->
-   <div class="footer_section layout_padding">
-      <div class="social_icon">
-         <ul>
-            <li><a href="#"><img src="<?= base_url('images/fb-icon.png') ?>"></a></li>
-            <li><a href="#"><img src="<?= base_url('images/twitter-icon.png') ?>"></a></li>
-            <li><a href="#"><img src="<?= base_url('images/linkedin-icon.png') ?>"></a></li>
-            <li><a href="#"><img src="<?= base_url('images/instagram-icon.png') ?>"></a></li>
-         </ul>
+   <!-- Modal Materi 4: Informatika -->
+   <div class="modal fade" id="materi4Modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title">Materi 4: Informatika</h5>
+               <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+            </div>
+            <div class="modal-body">
+               <h3>💻 Materi Singkat: Dasar-Dasar Komputer</h3>
+               <p>Informatika adalah ilmu yang mempelajari tentang pengolahan informasi menggunakan komputer.</p>
+               <ol>
+                  <li>Pengenalan perangkat keras (hardware) dan perangkat lunak (software)</li>
+                  <li>Konsep dasar pemrograman dan algoritma</li>
+                  <li>Penggunaan aplikasi perangkat lunak untuk pekerjaan sehari-hari</li>
+               </ol>
+               <p><strong>Contoh:</strong> Menulis program pertama dengan bahasa pemrograman Python.</p>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+            </div>
+         </div>
       </div>
    </div>
+
+   <!-- Modal Materi 5: Ilmu Pengetahuan Sosial (IPS) -->
+   <div class="modal fade" id="materi5Modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title">Materi 5: Ilmu Pengetahuan Sosial</h5>
+               <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+            </div>
+            <div class="modal-body">
+               <h3>🌍 Materi Singkat: Sejarah Dunia</h3>
+               <p>Ilmu Pengetahuan Sosial mempelajari berbagai aspek kehidupan manusia, termasuk sejarah, ekonomi, dan geografi.</p>
+               <ol>
+                  <li>Sejarah peradaban manusia dari zaman kuno hingga modern</li>
+                  <li>Pengaruh sosial dan budaya terhadap perkembangan masyarakat</li>
+                  <li>Proses globalisasi dan dampaknya</li>
+               </ol>
+               <p><strong>Contoh:</strong> Dampak Revolusi Industri terhadap perubahan sosial dan ekonomi.</p>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- Modal Materi 6: Bahasa Indonesia -->
+   <div class="modal fade" id="materi6Modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title">Materi 6: Bahasa Indonesia</h5>
+               <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+            </div>
+            <div class="modal-body">
+               <h3>📖 Materi Singkat: Teks Narasi</h3>
+               <p>Bahasa Indonesia mempelajari berbagai jenis teks, termasuk teks narasi yang menceritakan suatu cerita atau peristiwa.</p>
+               <ol>
+                  <li>Struktur teks narasi: orientasi, komplikasi, dan resolusi</li>
+                  <li>Penggunaan gaya bahasa dan tokoh dalam cerita</li>
+                  <li>Makna mendalam dalam teks narasi</li>
+               </ol>
+               <p><strong>Contoh:</strong> Menulis cerita pendek dengan tema petualangan.</p>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- footer section start -->
+   <div class="footer_section layout_padding" style="background-color: transparent;">
+      <div class="mx-auto" style="max-width: 600px;">
+         <div class="p-4 rounded shadow text-center" style="background-color:rgb(54, 49, 39);"> <!-- Warna agak gelap -->
+            <div class="social_icon">
+               <ul class="list-inline mb-0">
+                  <li class="list-inline-item mx-2">
+                     <a href="#"><img src="<?= base_url('images/fb-icon.png') ?>" alt="Facebook"></a>
+                  </li>
+                  <li class="list-inline-item mx-2">
+                     <a href="#"><img src="<?= base_url('images/twitter-icon.png') ?>" alt="Twitter"></a>
+                  </li>
+                  <li class="list-inline-item mx-2">
+                     <a href="#"><img src="<?= base_url('images/linkedin-icon.png') ?>" alt="LinkedIn"></a>
+                  </li>
+                  <li class="list-inline-item mx-2">
+                     <a href="#"><img src="<?= base_url('images/instagram-icon.png') ?>" alt="Instagram"></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- footer section end -->
 
    <!-- Copyright -->
    <div class="copyright_section">

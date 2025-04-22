@@ -95,16 +95,27 @@
    </div>
    <!-- buku section end -->
    <!-- footer section start -->
-   <div class="footer_section layout_padding">
-      <div class="social_icon">
-         <ul>
-            <li><a href="#"><img src="<?= base_url('images/fb-icon.png') ?>"></a></li>
-            <li><a href="#"><img src="<?= base_url('images/twitter-icon.png') ?>"></a></li>
-            <li><a href="#"><img src="<?= base_url('images/linkedin-icon.png') ?>"></a></li>
-            <li><a href="#"><img src="<?= base_url('images/instagram-icon.png') ?>"></a></li>
-         </ul>
+   <div class="footer_section layout_padding" style="background-color: transparent;">
+      <div class="mx-auto" style="max-width: 600px;">
+         <div class="p-4 rounded shadow text-center" style="background-color:rgb(54, 49, 39);"> <!-- Warna agak gelap -->
+            <div class="social_icon">
+               <ul class="list-inline mb-0">
+                  <li class="list-inline-item mx-2">
+                     <a href="#"><img src="<?= base_url('images/fb-icon.png') ?>" alt="Facebook"></a>
+                  </li>
+                  <li class="list-inline-item mx-2">
+                     <a href="#"><img src="<?= base_url('images/twitter-icon.png') ?>" alt="Twitter"></a>
+                  </li>
+                  <li class="list-inline-item mx-2">
+                     <a href="#"><img src="<?= base_url('images/linkedin-icon.png') ?>" alt="LinkedIn"></a>
+                  </li>
+                  <li class="list-inline-item mx-2">
+                     <a href="#"><img src="<?= base_url('images/instagram-icon.png') ?>" alt="Instagram"></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
       </div>
-   </div>
    </div>
    <!-- footer section end -->
 
