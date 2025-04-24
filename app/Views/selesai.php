@@ -13,6 +13,7 @@
             justify-content: center;
             height: 100vh;
             margin: 0;
+            background-color: #ffe6bf;
         }
 
         .center-box {

@@ -95,9 +95,9 @@
    </div>
    <!-- buku section end -->
    <!-- footer section start -->
-   <div class="footer_section layout_padding" style="background-color: transparent;">
+   <div class="footer_section layout_padding" style="background-color: #dca67d;">
       <div class="mx-auto" style="max-width: 600px;">
-         <div class="p-4 rounded shadow text-center" style="background-color:rgb(54, 49, 39);"> <!-- Warna agak gelap -->
+         <div class="p-4 rounded shadow text-center" style="background-color:#ffe6bf;">
             <div class="social_icon">
                <ul class="list-inline mb-0">
                   <li class="list-inline-item mx-2">

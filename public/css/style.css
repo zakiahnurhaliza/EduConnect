@@ -231,16 +231,17 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(..\images\bg-web.jpeg);
+    /*background-image: url(..\images\bg-web.jpeg);*/
     height: auto;
     background-size: 100%;
     padding: 0px 0px 0px 0px;
     position: relative; 
     z-index: 999;
+    background-color: #dca67d;
 }
 
 .bg-light {
-    background-color: transparent !important;
+    background-color: #fff4db
 }
 
 .logo {
@@ -263,7 +264,7 @@ button {
 .navbar-light .navbar-nav .nav-link {
     font-size: 18px;
     text-transform: uppercase;
-    color: #fff;
+    color: #000000;
 }
 
 .navbar-nav {
@@ -317,7 +318,7 @@ button {
 }
 
 .menu_main li a {
-    color: #ffffff;
+    color: #000000;
     padding: 10px 20px;
     border-radius: 10px;
 }
@@ -336,7 +337,7 @@ button {
 
 .header_main {
     width: 100%;
-    background-image: url(../images/bg-web.jpeg);
+    /*background-image: url(../images/bg-web.jpeg);*/
     background-size: 100%;
     padding: 10px 0px 0px 0px;
 }
@@ -403,8 +404,8 @@ button {
 /* services section start */
 
 .services_section {
-    padding: 60px 0;
-    background-color: #f8f9fa;
+    padding: 30px 0;
+    background-color: #ffe6bf;;
 }
 
 .services_taital {
@@ -419,10 +420,10 @@ button {
 
 .service_box {
     border: 1px solid #ddd;
-    padding: 30px;
-    border-radius: 5px;
+    padding: 35px;
+    border-radius: 10px;
     text-align: center;
-    background-color: #fff;
+    background-color: #fed6a9;
     transition: transform 0.3s;
     cursor: pointer;
 }
@@ -471,6 +472,7 @@ button {
     width: 100%;
     float: left;
     padding-bottom: 90px;
+    background-color: #ffe6bf;
 }
 
 .about_taital_main {
@@ -516,7 +518,7 @@ button {
 .blog_section {
     width: 100%;
     float: left;
-    background-image: url(../images/blog-bg.png);
+    background-color: #ffe6bf;;
     height: auto;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -588,12 +590,21 @@ button {
 }
 /* blog section end */
 
+/* client section start */
+
+client_section {
+    width: 100%;
+    height: auto;
+    float: left;
+    padding-bottom: 90px;
+}
+
 .client_section_2 {
-    background-color: #ffffff;
+    background-color: #ffeede;
     box-shadow: 0px 1px 16px -6px;
     border-radius: 30px;
     padding: 30px 20px;
-    margin-top: 30px;
+    margin-top: 20px;
     max-width: 700px;
     width: 90%;
     height: 300px; /* <- tinggi tetap */
@@ -633,7 +644,7 @@ button {
     justify-content: center;
     align-items: center;
 }
-
+/* client section end */
 
 /* choose section start */
 
@@ -641,6 +652,7 @@ button {
     width: 100%;
     float: left;
     padding-bottom: 90px;
+    background-color: #ffe6bf;
 }
 
 .choose_taital {
@@ -703,27 +715,6 @@ button {
     padding-bottom: 0px;
 }
 
-.getquote_bt {
-    width: 200px;
-    padding-top: 6px;
-}
-
-.getquote_bt a {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #ffffff;
-    background-color: #2b2278;
-    text-align: center;
-    padding: 10px 0px;
-    border-radius: 30px;
-    font-weight: bold;
-}
-
-.getquote_bt a:hover {
-    background-color: #000d10;
-    color: #ffffff;
-}
 
 
 /* choose section end */
@@ -798,58 +789,18 @@ button {
     width: 100%;
     float: left;
     height: auto;
-    padding-top: 250px;
+    padding-top: 50px;
     background-size: 100% 100%;
     padding-bottom: 30px;
     background-repeat: no-repeat;
 }
 
-.input_btn_main {
-    width: 50%;
-    display: flex;
-    background-color: #ffffff;
-    border-radius: 40px;
-    padding: 8px 0px;
-    margin: 0 auto;
-}
-
-.mail_text {
-    width: 100%;
-    float: left;
-    font-size: 18px;
-    color: #2b2c2c;
-    background-color: #ffffff;
-    height: auto;
-    padding: 5px 20px;
-    border-radius: 20px;
-    border: 0px;
-}
-
-.subscribe_bt {
-    float: right;
-}
-
-.subscribe_bt a {
-    width: 170px;
-    float: left;
-    font-size: 18px;
-    color: #2b2278;
-    background-color: transparent;
-    padding: 5px 0px;
-    text-align: center;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-
-.subscribe_bt a:hover {
-    color: #000;
-    background-color: transparent;
-}
 
 .social_icon {
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    color: #563d15;
 }
 
 .social_icon ul {
@@ -864,43 +815,20 @@ button {
     padding: 30px 5px;
 }
 
-.location_main {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 40px;
-}
-
-.call_text {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #ffffff;
-    padding-top: 10px
-}
-
-.call_text a {
-    color: #ffffff;
-}
-
-.call_text a:hover {
-    color: #e27141;
-}
-
 
 /* footer section end */
 
 .copyright_section {
     width: 100%;
-    float: left;
-    background-color: #122c2d;
     height: auto;
+    float: left;
+    background-color: #ffe6bf;
 }
 
 .copyright_text {
     width: 100%;
     float: left;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     font-size: 16px;
     margin-left: 0px;
@@ -919,4 +847,22 @@ button {
 }
 .card-body {
     padding: 15px; 
+}
+
+.kuis_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+    background-color: #ffe6bf;
+}
+
+.soal_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+    background-color: #ffe6bf;
+}
+
+.card {
+    background-color: #ffefd6;
 }
